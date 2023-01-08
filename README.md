@@ -1,3 +1,6 @@
+# Uptime Discord Bot 
+
+- You can give command in discord channel, it will give you that status of your URL. 
 ## Prerequisites
 
 - Python 3.5 or newer
