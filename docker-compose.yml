@@ -6,3 +6,5 @@ services:
     restart: always
     working_dir: /code
     entrypoint: "python3 bot.py"
+    env_file:
+      - .env

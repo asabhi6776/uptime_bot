@@ -2,7 +2,6 @@ import discord
 import requests
 import os
 
-
 TOKEN = os.environ['DISCORD_BOT_TOKEN']
 # client = discord.Client()
 intents = discord.Intents.all()
@@ -28,4 +27,4 @@ async def on_message(message):
         except:
             await message.channel.send('There was an error checking the uptime of the URL.')
 
-client.run('TOKEN')
+client.run(TOKEN)
